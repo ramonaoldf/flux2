@@ -1,8 +1,5 @@
 # flux CLI Installation
 
-Binaries for macOS and Linux AMD64 are available for download on the 
-[release page](https://github.com/fluxcd/flux2/releases).
-
 To install the latest release run:
 
 ```bash
@@ -11,7 +8,6 @@ curl -s https://raw.githubusercontent.com/fluxcd/flux2/main/install/flux.sh | su
 
 The install script does the following:
 * attempts to detect your OS
-* downloads and unpacks the release tar file in a temporary directory
 * copies the flux binary to `/usr/local/bin`
 * removes the temporary directory
 

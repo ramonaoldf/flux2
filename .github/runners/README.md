@@ -25,7 +25,6 @@ ssh ubuntu@<instance-public-IP>
 ```shell
 mkdir -p actions-runner && cd actions-runner
 ```
-- Download the provisioning script
 ```shell
 curl -sL https://raw.githubusercontent.com/fluxcd/flux2/main/.github/runners/arm64.sh > arm64.sh \
   && chmod +x ./arm64.sh

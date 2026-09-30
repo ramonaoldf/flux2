@@ -53,7 +53,6 @@ Arch Linux (AUR) packages:
   (unstable) version from source code from our git `main` branch
 
 Binaries for macOS AMD64/ARM64, Linux AMD64/ARM/ARM64 and Windows are available to
-download on the [release page](https://github.com/fluxcd/flux2/releases).
 
 A multi-arch container image with `kubectl` and `flux` is available on Docker Hub and GitHub:
 
